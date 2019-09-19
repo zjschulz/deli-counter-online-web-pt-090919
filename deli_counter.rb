@@ -24,7 +24,7 @@ def now_serving(deli)
   if deli.empty?
     puts "There is nobody waiting to be served!"
   else
-    statement = "Currently serving #{deli(0).join}."
+    statement = "Currently serving #{deli[0].join}."
     deli.shift
     puts statement
   end
