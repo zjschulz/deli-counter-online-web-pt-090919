@@ -10,4 +10,8 @@ def line(deli)
 end
 
 def take_a_number(deli,name)
+  if deli.empty?
+    deli.push(name)
+  else
+  end
 end
