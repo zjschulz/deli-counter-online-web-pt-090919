@@ -1,9 +1,10 @@
 def line(deli)
   if deli.empty?
     puts "The line is currently empty."
-  else statement= "The line is currently:"
+  else
+    statement = "The line is currently:"
     deli.each.with_index(1) do |name, i|
-      statement << " #{i}. #{name}"
+    statement << " #{i}. #{name}"
     end
     puts statement
   end
@@ -14,6 +15,8 @@ def take_a_number(deli,name)
     deli.insert(-1,name)
     puts "Welcome, #{name}. You are number 1 in line."
   else
-    puts "1"
+    deli.each.with_index(1) do |name, i|
+    statement << "Welcome, #{name}. You are number #{i} in line."
+    puts statement
   end
 end
