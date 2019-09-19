@@ -11,7 +11,7 @@ end
 
 def take_a_number(deli,name)
   if deli.empty?
-    puts "2"
+    puts "Welcome, #{name}. You are number 1 in line."
   else
     puts "1"
   end
