@@ -24,10 +24,7 @@ def now_serving(deli)
   if deli.empty?
     puts "There is nobody waiting to be served!"
   else
-    statement = "Currently serving"
-    deli.each do |name|
-    statement << " #{name}."
-    end
+    statement = "Currently serving #{deli(0)}."
     puts statement
   end
 end
