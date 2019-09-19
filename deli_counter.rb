@@ -24,7 +24,8 @@ def now_serving(deli)
   if deli.empty?
     puts "There is nobody waiting to be served!"
   else
+    statement = "Currently serving"
     deli.each.with_index(1) do |name, i|
-    statement << " #{i}. #{name}"
+    statement << " #{name}"
   end
 end
