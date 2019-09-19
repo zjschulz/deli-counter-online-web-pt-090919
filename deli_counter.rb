@@ -1,7 +1,10 @@
 def line(deli)
-  if deli.length == 0
+  if deli.length.empty?
     puts "The line is currently empty."
-  elsif deli.length >= 1
-    puts deli.join
+  else statement= "The line is currently:"
+    deli.each.with_index(1) do |name, i|
+      statement << " #{i}. #{name}"
+    end
+    puts statement
   end
 end
