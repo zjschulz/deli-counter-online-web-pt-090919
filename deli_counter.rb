@@ -17,6 +17,4 @@ def take_a_number(deli,name)
   else
     puts "Hi"
   end
-    puts s
-  end
 end
