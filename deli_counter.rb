@@ -17,6 +17,7 @@ def take_a_number(deli,name)
   else
     deli.each.with_index(1) do |name, i|
     statement << "Welcome, #{name}. You are number #{i} in line."
+  end
     puts statement
   end
 end
