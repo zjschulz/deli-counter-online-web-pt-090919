@@ -8,3 +8,6 @@ def line(deli)
     puts statement
   end
 end
+
+def take_a_number
+end
