@@ -11,7 +11,7 @@ end
 
 def take_a_number(deli,name)
   if deli.empty?
-    deli.insert(-1,#{name})
+    puts "2"
   else
     puts "1"
   end
