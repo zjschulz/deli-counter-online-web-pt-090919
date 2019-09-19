@@ -25,7 +25,7 @@ def now_serving(deli)
     puts "There is nobody waiting to be served!"
   else
     statement = "Currently serving"
-    deli.each.with_index(1) do |name|
+    deli.each.with_index(1) do |i|
     statement << " #{name}."
     deli.pop
     end
