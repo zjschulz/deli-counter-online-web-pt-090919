@@ -15,6 +15,7 @@ def take_a_number(deli,name)
     deli.insert(-1,name)
     puts "Welcome, #{name}. You are number 1 in line."
   else
-    puts "Hi"
+    deli.insert(-1,name)
+    puts "Welcome, #{name}. You are number #{deli.length} in line."
   end
 end
