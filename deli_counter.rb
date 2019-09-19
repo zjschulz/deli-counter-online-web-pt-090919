@@ -26,7 +26,7 @@ def now_serving(deli)
   else
     statement = "Currently serving"
     deli.each do |i|
-    statement << " ."
+    statement << " Logan."
     deli.pop
     end
     puts statement
